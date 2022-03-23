@@ -1,0 +1,45 @@
+*[role="button"] {
+	cursor: pointer;
+}
+
+form label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+#customers-table {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #d1d1d1;
+}
+
+#customers-table thead,
+#customers-table tr:not(:last-child) {
+	border-bottom: 1px solid #d1d1d1;
+}
+
+#customers-table th,
+#customers-table td {
+	padding: 5px;
+}
+
+#customers-table th:nth-child(2n),
+#customers-table td:nth-child(2n) {
+	background: #efefef;
+}
+
+#customers-table label {
+	display: block;
+}
+
+#customers-table .save {
+	display: block;
+	padding: 5px;
+	text-align: center;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #187f00;
+	background: #069206;
+	color: #fff;
+}
